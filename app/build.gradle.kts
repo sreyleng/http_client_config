@@ -39,6 +39,7 @@ android {
 dependencies {
     implementation(files("libs/testlibrary-release-20240923.aar"))
 
+    implementation("com.android.app:cnbhttpclient:1.0.1")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

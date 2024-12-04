@@ -55,6 +55,8 @@ class MainActivity : AppCompatActivity() {
 
             tvShow.text = "decryption: $result"
         }
+
+
     }
 
     private fun encrypt(strToEncrypt: String): ByteArray {
