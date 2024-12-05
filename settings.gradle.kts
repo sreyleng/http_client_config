@@ -16,9 +16,13 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+
+        maven("https://jitpack.io")
+
     }
 }
 
 rootProject.name = "TestLibApp"
 include(":app")
 include(":cnbhttpclient")
+include(":mylibrary")
